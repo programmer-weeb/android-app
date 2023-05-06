@@ -30,7 +30,7 @@ public class login extends AppCompatActivity {
         setContentView(R.layout.activity_login);
         username = (EditText) findViewById(R.id.edittext1);
         password = (EditText) findViewById(R.id.edittext2);
-        createNotificationChannel();
+//        createNotificationChannel();
         loginButton = (Button) findViewById(R.id.button2);
         sharedPreferences = getSharedPreferences("UserInfo", 0);
         loginButton.setOnClickListener(new View.OnClickListener() {
@@ -42,11 +42,13 @@ public class login extends AppCompatActivity {
                 String res1 = sharedPreferences.getString("password", "");
                 // fromLoginToHome
                 if (uname.equals(res) && pass.equals(res1)){
+                    createNotificationChannel();
+                    sendNotification();
                     Intent intent = new Intent(login.this, home.class);
                     startActivity(intent);
                 }
 //                notification
-                sendNotification();
+//                sendNotification();
             }
         });
     }
