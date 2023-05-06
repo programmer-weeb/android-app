@@ -8,15 +8,18 @@ import android.app.NotificationChannel;
 import android.app.NotificationManager;
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.media.RingtoneManager;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 
 public class login extends AppCompatActivity {
-
+    EditText username, password;
+    SharedPreferences sharedPreferences;
     private static final int NOTIFICATION_ID = 1;
     private static final String CHANNEL_ID = "my_channel";
 
@@ -25,14 +28,23 @@ public class login extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+        username = (EditText) findViewById(R.id.edittext1);
+        password = (EditText) findViewById(R.id.edittext2);
         createNotificationChannel();
         loginButton = (Button) findViewById(R.id.button2);
+        sharedPreferences = getSharedPreferences("UserInfo", 0);
         loginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                String uname= username.getText().toString();
+                String pass= password.getText().toString();
+                String res = sharedPreferences.getString("username", "");
+                String res1 = sharedPreferences.getString("password", "");
                 // fromLoginToHome
-                Intent intent = new Intent(login.this, home.class);
-                startActivity(intent);
+                if (uname.equals(res) && pass.equals(res1)){
+                    Intent intent = new Intent(login.this, home.class);
+                    startActivity(intent);
+                }
 //                notification
                 sendNotification();
             }
