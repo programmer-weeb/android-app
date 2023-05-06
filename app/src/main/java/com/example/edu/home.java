@@ -18,4 +18,6 @@ public class home extends AppCompatActivity {
         Intent intent = new Intent(this, profile.class);
         startActivity(intent);
     }
+
+
 }
