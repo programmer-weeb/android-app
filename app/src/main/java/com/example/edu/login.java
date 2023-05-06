@@ -1,8 +1,12 @@
 package com.example.edu;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.NotificationCompat;
 
+import android.app.NotificationManager;
 import android.content.Intent;
+import android.media.RingtoneManager;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -22,7 +26,9 @@ public class login extends AppCompatActivity {
                 // fromLoginToHome
                 Intent intent = new Intent(login.this, home.class);
                 startActivity(intent);
+
             }
+           
         });
     }
 
