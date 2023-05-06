@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_home"
+        android:icon="@drawable/home"
+        android:title="Home"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menu_settings"
+        android:icon="@drawable/baseline_settings_24"
+        android:title="Settings"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menu_loves"
+        android:icon="@drawable/shoping"
+        android:title="shopping"
+        app:showAsAction="ifRoom" />
+
+</menu>
