@@ -24,7 +24,7 @@
                 android:id="@+id/textView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Login"
+                android:text="@string/login"
                 android:textColor="#6C5DD2"
                 android:textStyle="bold"
                 android:textAlignment="center"
@@ -42,7 +42,7 @@
                     android:id="@+id/textview1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="UserName"
+                    android:text="@string/username"
                     android:textSize="18sp"
                     android:textColor="#6C5DD2"
                     />
@@ -54,7 +54,7 @@
                     android:background="@drawable/background_edit"
                     android:ems="10"
                     android:inputType="textPersonName"
-                    android:hint="Enter Your UserName"
+                    android:hint="@string/enter_your_usernameSign"
                     android:gravity="center"
                     android:textColor="#707070"
                     android:textColorHint="#707070"
@@ -73,7 +73,7 @@
                     android:id="@+id/textView2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Password"
+                    android:text="@string/password"
                     android:textSize="18sp"
                     android:textColor="#6C5DD2"
                     />
@@ -85,7 +85,7 @@
                     android:background="@drawable/background_edit"
                     android:ems="10"
                     android:inputType="textPersonName"
-                    android:hint="Enter Your Password"
+                    android:hint="@string/enter_your_password"
                     android:gravity="center"
                     android:textColor="#707070"
                     android:textColorHint="#707070"
@@ -115,7 +115,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
 
-                    android:text="OR"
+                    android:text="@string/or"
                     android:layout_margin="16dp"
                     />
 
@@ -166,7 +166,7 @@
                 android:layout_marginTop="16dp"
                 android:layout_marginBottom="16dp"
                 android:onClick="goToSignUpPage"
-                android:text="DONT HAVE AN ACCOUNT?"
+                android:text="@string/dont_have_an_account"
                 android:textAlignment="center"
                 android:textColor="#6C5DD2"
                 android:textSize="18sp"
@@ -182,7 +182,7 @@
                 android:background="@drawable/button_backgroudn"
                 android:gravity="center"
                 android:onClick="goToHomePage"
-                android:text="Login"
+                android:text="@string/login"
                 android:textColor="#FFFFFF"
                 android:textSize="18sp"
                 android:textStyle="bold" />
