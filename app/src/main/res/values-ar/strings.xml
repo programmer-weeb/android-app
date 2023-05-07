@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Edu</string>
+    <string name="opening">يفتح...</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="username">اسم المستخدِم</string>
+    <string name="enter_your_username">أدخل اسم المستخدِم</string>
+    <string name="password">كلمة المرور</string>
+    <string name="enter_your_password">أدخل كلمة المرور</string>
+    <string name="or">أو</string>
+    <string name="dont_have_an_account">ليس لديك حساب ؟</string>
+    <string name="login1">تسجيل الدخول</string>
+    <string name="welcome">أهلا,</string>
+    <string name="karim_saad">كريم سعد</string>
+    <string name="edufly">إديوفلاي</string>
+    <string name="explore_million_s_of_school_ebooks_for_all_classes">استكشف ملايين الكتب الإلكترونية المدرسية لجميع الفصول الدراسية</string>
+    <string name="learn_more">تعلم المزيد</string>
+    <string name="lower_primary">الابتدائية الدنيا</string>
+    <string name="upper_primary">الابتدائية العليا</string>
+    <string name="high_school">المدرسه الثانويه</string>
+    <string name="highersecondary">الثانوية العليا</string>
+    <string name="karim_saadProfile">كريم سعد</string>
+    <string name="karimsaad_gamil_com">karimsaad@gmail.com</string>
+    <string name="payment">الدفع</string>
+    <string name="settings">الاعدادات</string>
+    <string name="notification">الاشعارات</string>
+    <string name="passwordProfile">كلمة المرور:</string>
+    <string name="changeProfile">الكلمة</string>
+    <string name="mobileProfile">رقم التليفون:</string>
+    <string name="_200100000000">+200100000000</string>
+    <string name="emailProfile">البريد الالكتروني:</string>
+    <string name="karimsaad_gmail_com">karimsaad@gmail.com</string>
+    <string name="address">العنوان</string>
+    <string name="ny_street21_no_34">نيويورك-شارع21-رقم 34</string>
+    <string name="signup">اشتراك</string>
+    <string name="usernameSign">اسم المستخدِم</string>
+    <string name="enter_your_usernameSign">أدخل اسم المستخدِم</string>
+    <string name="emailSign">البريد الالكتروني:</string>
+    <string name="enter_your_emailSign">أدخل بريدك الالكتروني</string>
+    <string name="passwordSign">كلمة المرور</string>
+    <string name="enter_your_passwordSign">أدخل كلمة المرور</string>
+    <string name="already_have_an_account_loginSign">لديك حساب بالفعل؟ سجل الدخول</string>
+    <string name="signupSign">اشتراك</string>
+</resources>

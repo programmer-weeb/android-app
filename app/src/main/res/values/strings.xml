@@ -2,4 +2,44 @@
     <string name="app_name">Edu</string>
     <string name="channel_name">channelName</string>
     <string name="channel_description">a description ksldfjklsd</string>
+    <string name="opening" translatable="false">Opening...</string>
+    <string name="login" translatable="false">Login</string>
+    <string name="username" translatable="false">UserName</string>
+    <string name="enter_your_username" translatable="false">Enter Your UserName</string>
+    <string name="password" translatable="false">Password</string>
+    <string name="enter_your_password" translatable="false">Enter Your Password</string>
+    <string name="or" translatable="false">OR</string>
+    <string name="dont_have_an_account" translatable="false">DONT HAVE AN ACCOUNT?</string>
+    <string name="login1" translatable="false">Login</string>
+    <string name="welcome" translatable="false">Welcome,</string>
+    <string name="karim_saad" translatable="false">Karim Saad</string>
+    <string name="edufly" translatable="false">edufly</string>
+    <string name="explore_million_s_of_school_ebooks_for_all_classes" translatable="false">Explore million\'s of School eBooks For all classes</string>
+    <string name="learn_more" translatable="false">Learn More</string>
+    <string name="lower_primary" translatable="false">lower primary</string>
+    <string name="upper_primary" translatable="false">upper primary</string>
+    <string name="high_school" translatable="false">high School</string>
+    <string name="highersecondary" translatable="false">highersecondary</string>
+    <string name="karim_saadProfile" translatable="false">karim saad</string>
+    <string name="karimsaad_gamil_com" translatable="false">karimsaad@gamil.com</string>
+    <string name="payment" translatable="false">Payment</string>
+    <string name="settings" translatable="false">Settings</string>
+    <string name="notification" translatable="false">Notification</string>
+    <string name="passwordProfile" translatable="false">Password:</string>
+    <string name="changeProfile" translatable="false">Change</string>
+    <string name="mobileProfile" translatable="false">Mobile:</string>
+    <string name="_200100000000" translatable="false">+200100000000</string>
+    <string name="emailProfile" translatable="false">Email:</string>
+    <string name="karimsaad_gmail_com" translatable="false">Karimsaad@gmail.com</string>
+    <string name="address" translatable="false">Address:</string>
+    <string name="ny_street21_no_34" translatable="false">NY-Street21-no 34</string>
+    <string name="signup" translatable="false">SignUp</string>
+    <string name="usernameSign" translatable="false">UserName</string>
+    <string name="enter_your_usernameSign" translatable="false">Enter Your UserName</string>
+    <string name="emailSign" translatable="false">Email</string>
+    <string name="enter_your_emailSign" translatable="false">Enter Your Email</string>
+    <string name="passwordSign" translatable="false">Password</string>
+    <string name="enter_your_passwordSign" translatable="false">Enter Your Password</string>
+    <string name="already_have_an_account_loginSign" translatable="false">Already have an account? Login</string>
+    <string name="signupSign" translatable="false">SignUp</string>
 </resources>
