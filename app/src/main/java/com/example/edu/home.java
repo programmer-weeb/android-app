@@ -6,6 +6,7 @@ import android.content.BroadcastReceiver;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.net.ConnectivityManager;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 
@@ -33,4 +34,11 @@ public class home extends AppCompatActivity {
         super.onPause();
         unregisterReceiver(broadcastReceiver);
     }
+
+    public void goToGithubPage(View view) {
+        Intent GithubPage = new Intent(Intent.ACTION_VIEW);
+        GithubPage.setData(Uri.parse("https://github.com/programmer-weeb/android-app"));
+        startActivity(GithubPage);
+    }
+
 }

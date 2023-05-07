@@ -112,6 +112,7 @@ all classes" />
                 android:layout_marginLeft="20sp"
                 android:layout_marginBottom="20dp"
                 android:background="@drawable/button_shape"
+                android:onClick="goToGithubPage"
                 android:shadowColor="#A8A8A8"
                 android:shape="rectangle"
                 android:text="Learn More"
