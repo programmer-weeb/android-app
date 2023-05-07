@@ -23,7 +23,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="48dp"
-        android:text="Welcome,"
+        android:text="@string/welcome"
         android:textColor="#FFFFFF"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -35,7 +35,7 @@
         android:layout_height="25dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
-        android:text="Karim Saad"
+        android:text="@string/karim_saad"
         android:textColor="#FFFFFF"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -93,7 +93,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="20dp"
 
-                android:text="edufly" />
+                android:text="@string/edufly" />
 
             <TextView
                 android:id="@+id/textView6"
@@ -101,9 +101,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
                 android:layout_marginBottom="20dp"
-                android:text="Explore million's of
-School eBooks For
-all classes" />
+                android:text="@string/explore_million_s_of_school_ebooks_for_all_classes" />
 
             <Button
                 android:id="@+id/button"
@@ -115,7 +113,7 @@ all classes" />
                 android:onClick="goToGithubPage"
                 android:shadowColor="#A8A8A8"
                 android:shape="rectangle"
-                android:text="Learn More"
+                android:text="@string/learn_more"
                 android:textColor="#FFFFFF"
                 android:textSize="10sp"
                 android:textStyle="normal" />
@@ -174,7 +172,7 @@ all classes" />
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="10dp"
-                    android:text="lower primary "
+                    android:text="@string/lower_primary"
                     android:textSize="15sp" />
 
             </LinearLayout>
@@ -199,7 +197,7 @@ all classes" />
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="10dp"
-                    android:text="upper primary"
+                    android:text="@string/upper_primary"
                     android:textSize="12sp" />
 
             </LinearLayout>
@@ -233,7 +231,7 @@ all classes" />
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="0dp"
-                    android:text="high School "
+                    android:text="@string/high_school"
                     android:textSize="12sp" />
 
             </LinearLayout>
@@ -259,7 +257,7 @@ all classes" />
                     android:layout_height="wrap_content"
                     android:layout_marginTop="0dp"
                     android:layout_marginBottom="0dp"
-                    android:text="highersecondary "
+                    android:text="@string/highersecondary"
                     android:textSize="15sp" />
 
             </LinearLayout>
