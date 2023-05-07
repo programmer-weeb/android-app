@@ -57,7 +57,7 @@
                         android:layout_marginStart="58dp"
                         android:layout_marginTop="24dp"
                         android:layout_marginEnd="60dp"
-                        android:text="karim saad"
+                        android:text="@string/karim_saadProfile"
                         android:textColor="#ffffff"
                         android:textSize="20sp"
                         android:textStyle="bold"
@@ -70,7 +70,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
-                        android:text="karimsaad@gamil.com"
+                        android:text="@string/karimsaad_gamil_com"
                         android:textColor="#ffffff"
                         android:textSize="18dp"
 
@@ -141,7 +141,7 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_margin="8dp"
-                                    android:text="Payment"
+                                    android:text="@string/payment"
                                     android:textAlignment="center"
                                     android:textColor="@color/black"
                                     android:textSize="13dp"
@@ -180,7 +180,7 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_margin="8dp"
-                                    android:text="Settings"
+                                    android:text="@string/settings"
                                     android:textAlignment="center"
                                     android:textColor="@color/black"
                                     android:textSize="13dp"
@@ -220,7 +220,7 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_margin="8dp"
-                                    android:text="Notification"
+                                    android:text="@string/notification"
                                     android:textAlignment="center"
                                     android:textColor="@color/black"
                                     android:textSize="13dp"
@@ -239,7 +239,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
-                                android:text="Password:"
+                                android:text="@string/passwordProfile"
                                 android:textColor="#182693"
                                 android:textSize="18sp" />
 
@@ -248,7 +248,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
-                                android:text="Change"
+                                android:text="@string/changeProfile"
                                 android:textAlignment="viewEnd"
                                 android:textColor="#5B5B5B"
                                 android:textSize="16sp" />
@@ -275,7 +275,7 @@
                                 android:layout_width="153dp"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
-                                android:text="Mobile:"
+                                android:text="@string/mobileProfile"
                                 android:textColor="#182693"
                                 android:textSize="18sp" />
 
@@ -310,7 +310,7 @@
                                 android:layout_width="153dp"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
-                                android:text="Email:"
+                                android:text="@string/emailProfile"
                                 android:textColor="#182693"
                                 android:textSize="18sp" />
 
@@ -319,7 +319,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
-                                android:text="Karimsaad@gmail.com"
+                                android:text="@string/karimsaad_gamil_com"
                                 android:textAlignment="viewEnd"
                                 android:textColor="#5B5B5B"
                                 android:textSize="16sp" />
@@ -346,7 +346,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
                                 android:onClick="openMap"
-                                android:text="Address:"
+                                android:text="@string/address"
                                 android:textColor="#182693"
                                 android:textSize="18sp" />
 
